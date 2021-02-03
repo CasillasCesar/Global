@@ -1,0 +1,19 @@
+{
+  "name": "global",
+  "version": "1.0.0",
+  "description": "Aplicación para la evaluación Global de la asignatura Aplicaciones Web Orientadas a Servicios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CasillasCesar/Global.git"
+  },
+  "author": "Casillas Céspedes César Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CasillasCesar/Global/issues"
+  },
+  "homepage": "https://github.com/CasillasCesar/Global#readme"
+}
