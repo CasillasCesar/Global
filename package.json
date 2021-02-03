@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/CasillasCesar/Global/issues"
   },
-  "homepage": "https://github.com/CasillasCesar/Global#readme"
+  "homepage": "https://github.com/CasillasCesar/Global#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
 }
