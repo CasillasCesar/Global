@@ -8,13 +8,15 @@ app.set('puerto', 80);
 app.set('view engine','ejs');
     //Configuración de ubicación de la carpeta views
 app.set('views',path.join(__dirname,'views'));
+    //Permiso o configuración para usar ejs en archivos con extensión .html
+app.engine('html',require('ejs').renderFile);
 
 //Midlewares
 
 //Routes
 app.get('/',(req,res)=>{
-    res.render('index')
-})
+    res.render('index',{titulo:"Inicio"});
+});
 //Static files
 
 //Servidor Escucha
