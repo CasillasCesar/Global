@@ -1,3 +1,4 @@
+const { render } = require('ejs');
 const express = require('express');
 const app  = express();
 const path = require('path');
@@ -14,9 +15,7 @@ app.engine('html',require('ejs').renderFile);
 //Midlewares
 
 //Routes
-app.get('/',(req,res)=>{
-    res.render('index',{titulo:"Inicio"});
-});
+app.use(require('./routes/ruta'));
 //Static files
 
 //Servidor Escucha
