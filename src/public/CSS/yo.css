@@ -1,9 +1,19 @@
-<style>
-    body{
-        font-family: 'Roboto Mono', monospace;
-    }
-    nav{
-        
-        background: linear-gradient(to left, #eeeded, #ccd1ff,#9698fa, #1900ff);
-    }
-</style>
+body{
+   color: black;
+   margin-left: 0%;
+   margin-top: 0%;
+   margin-right: 0%;
+   margin-bottom: 0%
+   
+   }
+nav{
+   background: linear-gradient(to left, #eeeded, #ccd1ff,#9698fa, #1900ff);
+   font-family: 'Roboto Mono', monospace;
+   font-size: 1.1rem;
+}
+.dropdown-item{
+   font-size: 1.05rem;
+}
+section{
+   min-height: 30rem;
+}
