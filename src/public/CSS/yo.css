@@ -1,0 +1,9 @@
+<style>
+    body{
+        font-family: 'Roboto Mono', monospace;
+    }
+    nav{
+        
+        background: linear-gradient(to left, #eeeded, #ccd1ff,#9698fa, #1900ff);
+    }
+</style>

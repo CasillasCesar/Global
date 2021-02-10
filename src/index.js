@@ -16,7 +16,9 @@ app.engine('html',require('ejs').renderFile);
 
 //Routes
 app.use(require('./routes/ruta'));
+
 //Static files
+app.use(express.static(path.join(__dirname,'public')));
 
 //Servidor Escucha
 app.listen(app.get('puerto'),()=>{
