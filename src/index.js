@@ -2,6 +2,7 @@ const { render } = require('ejs');
 const express = require('express');
 const app  = express();
 const path = require('path');
+const engine = require('ejs-mate');
 //Settings
     //Creación de la variable "puerto" con su valor
 app.set('puerto', 80);
@@ -11,7 +12,7 @@ app.set('view engine','ejs');
 app.set('views',path.join(__dirname,'views'));
     //Permiso o configuración para usar ejs en archivos con extensión .html
 app.engine('html',require('ejs').renderFile);
-
+app.engine('ejs',engine);
 //Midlewares
 
 //Routes

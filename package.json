@@ -19,8 +19,11 @@
   "homepage": "https://github.com/CasillasCesar/Global#readme",
   "dependencies": {
     "ejs": "^3.1.5",
+    "ejs-mate": "^3.0.0",
     "express": "^4.17.1",
-    "morgan": "^1.10.0"
+    "leaflet": "^1.7.1",
+    "morgan": "^1.10.0",
+    "socket.io": "^3.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"

@@ -1,0 +1,11 @@
+.yo{
+    min-height: 20rem;
+    margin-top: 1%;
+}
+section,article,aside,.row{
+    padding: 0;
+    margin: 0;
+}
+#mapid{
+    position: relative;
+}

@@ -6,4 +6,7 @@ ruta.get('/',(req,res)=>{
 ruta.get('/Home',(req,res)=>{
     res.render('home.html',{titulo: 'Home'});
 });
+ruta.get('/Mapa',(req,res)=>{
+    res.render('mapa.html',{titulo: 'Mapa'});
+})
 module.exports = ruta;

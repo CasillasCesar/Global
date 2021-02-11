@@ -2,7 +2,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <%- include(../partials/head.html);%>
+    <%- include('../partials/head.html');%>
+    <!-- Agregar estilos de CSS para la creación del mapa con leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>    
+    <link rel="stylesheet" href="CSS/mapa.css">
+
 </head>
 <body>
      <!-- Inicio Cabecera de la página -->
@@ -10,8 +14,15 @@
      <!-- Fin de la Cabecera -->
      <!-- Inicio Cuerpo de lá página -->
      <section>
-         <article>
-             
+         <article class="row">
+            <div class="row" >
+                <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10 p-2 text-center yo" id="mapid">
+                </div>  
+                <div class="col-sm-12 col-md-2 col-lg-2 yo text-center" style="background-color: yellow;">
+                    Hi
+                </div>
+            </div>  
+            
          </article>
      </section>
      <aside>
@@ -22,5 +33,9 @@
  
      <!-- Fin del píe de página -->
      <%- include('../partials/js.html')%>
+     <!-- CDN de JS para la creación de mapa con leaflet -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <!-- Integración de archivo JS personal -->
+     <script src="JS/mapa.js"></script>
 </body>
 </html>
